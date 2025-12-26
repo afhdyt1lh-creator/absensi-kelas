@@ -1,0 +1,1 @@
+let online=0,total=0;export default function h(req,res){online++;total++;setTimeout(()=>online--,15000);res.json({ok:true})}export{online,total};

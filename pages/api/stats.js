@@ -1,0 +1,1 @@
+import{online,total}from'./visit';export default function h(req,res){res.json({online,total})}
