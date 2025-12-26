@@ -1,0 +1,1 @@
+import {useEffect} from "react";export default function Home(){useEffect(()=>{fetch("/api/visit")},[]);return(<div className="card"><h1>Absensi Pocari</h1><p>Selamat datang siswa</p><a href="/admin"><button>Login Admin</button></a><button disabled>Lanjut sebagai siswa (public)</button></div>);}
